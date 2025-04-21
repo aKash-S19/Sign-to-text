@@ -2,13 +2,13 @@ import React from "react";
 import HandTracker from "./HandTracker";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="app-container">
-      <h1 className="heading">Sign Language to Text Converter Prototype</h1>
+      <h1 className="app-title">Sign Language to Text Converter</h1>
       <HandTracker />
     </div>
   );
-}
+};
 
 export default App;
