@@ -177,7 +177,7 @@ const HandTracker = () => {
     ) {
       return "C";
     }
-
+    const dze = wrist.y;
     const dxH = wrist.x - indexMcp.x;
     const dyH = wrist.y - indexMcp.y;
     const angleH = Math.atan2(dyH, dxH) * (180 / Math.PI);
